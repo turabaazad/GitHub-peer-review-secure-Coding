@@ -4,10 +4,9 @@ This module provides functions to get user input, fetch data from an API, store 
 and send an email notification.
 """
 
+import os
 from urllib.request import urlopen
 import pymysql
-import os
-
 
 db_config = {"host": "mydatabase.com", "user": "admin", "password": "secret123"}
 
