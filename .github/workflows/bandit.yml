@@ -18,8 +18,8 @@ on:
     # The branches below must be a subset of the branches above
     branches: [$default-branch]
   schedule:
-# changed the cron formation.
-    - cron: '0 12 * * 0'
+    # changed the cron formation.
+    - cron: "0 12 * * 0"
 
     # added explicit permissions in the file to pass
 permissions:
